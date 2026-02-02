@@ -1,5 +1,0 @@
-#!/bin/bash
-# .cpanel.yml - Deployment script for nikolanakovski.tech
-
-rsync -av --delete ./ /home/nikobusc/public_html/ --exclude='.git' --exclude='.cpanel.yml' --exclude='README.md'
-echo "Deployment complete."
